@@ -1,7 +1,12 @@
 .navbar-brand img
 {
-  height: 41px;
+  height: 60px;
   width: auto;
+}
+
+header .navbar-brand
+{
+  padding: 0;
 }
 
 #slider .block h1
