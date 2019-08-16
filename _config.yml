@@ -35,3 +35,6 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+geolonia:
+  dashboard_url: "https://app.geolonia.com"
