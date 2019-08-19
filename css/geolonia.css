@@ -15,9 +15,15 @@ header .navbar-brand
   padding: 0;
 }
 
+.section-title p
+{
+  font-style: normal;
+}
+
 #slider .block h1
 {
-  font-family: sans-serif;
+  font-family: "Noto Sans Japanese",sans-serif;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
@@ -31,9 +37,36 @@ h1, h2, h3, h4, h5, h6
   opacity: 0.2;
 }
 
+#slider .block p
+{
+  line-height: 1.5em;
+}
+
+#slider .block h1
+{
+  padding-bottom: 0;
+}
+
 #slide h1, #slider p
 {
-  text-shadow: 0 0 10px #000000;
+  text-shadow: 0 0 5px #000000;
+}
+
+#feature h2, #feature p
+{
+  text-shadow: 0 0 10px #ffffff;
+  color: #000000;
+}
+
+footer
+{
+  background-color: #EE730F;
+  color: #ffffff;
+}
+
+footer p, footer a, footer .footer-manu ul li a
+{
+  color: #ffffff;
 }
 
 @keyframes spin {
