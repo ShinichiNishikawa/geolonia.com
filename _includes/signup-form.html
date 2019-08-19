@@ -1,0 +1,64 @@
+<div class="panel panel-default margin-md">
+  <div class="panel-body">
+    <form>
+      <div class="alert alert-danger hidden" id="message">
+        使用できないユーザー名またはパスワードが使用されているか、もしくはメールアドレスの形式が正しくありません。
+      </div>
+
+      <div class="form-group">
+        <label for="username">ユーザー名</label>
+        <div>
+          <input
+            id="username"
+            type="username"
+            placeholder="ユーザー名"
+            value=""
+            class="form-control"
+          />
+        </div>
+        <small class="form-text text-muted">
+          英数字（A-Z, a-z）とハイフン(-)およびアンダースコア(_)のみが使用できます。
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Eメール</label>
+        <div>
+          <input
+            id="email"
+            type="email"
+            placeholder="name@example.com"
+            value=""
+            class="form-control"
+          />
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="password">パスワード</label>
+        <div>
+          <input id="password" type="password" class="form-control" />
+          <small class="form-text text-muted">
+            8文字以上のパスワードを指定してください。
+          </small>
+        </div>
+      </div>
+
+      <button
+        id="sign-up"
+        type="button"
+        class="btn btn-primary btn-lg btn-block"
+      >
+        Sign up for Geolonia
+      </button>
+
+      <small class="form-text text-muted">
+        または
+        <a href="{{ site.geolonia.dashboard_url }}/sign-in">サインイン</a>する<br />
+        <a href="{{ site.geolonia.dashboard_url }}/verify">
+          認証コードを持っている場合
+        </a>
+      </small>
+    </form>
+  </div>
+</div>

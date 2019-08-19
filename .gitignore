@@ -4,3 +4,5 @@
 Gemfile.lock
 _site
 vendor
+node_modules
+js/amazon-cognito-identity.min.js
