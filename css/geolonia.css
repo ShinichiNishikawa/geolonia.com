@@ -1,6 +1,17 @@
+#service .service-item p,
+#service p,
+#feature h2, #feature p,
+#intro h2, #intro p, #intro .block p
+{
+  font-family: sans-serif;
+  text-shadow: 0 0 10px #ffffff;
+  color: #000000;
+}
+
 h1, h2, h3, h4, h5, h6
 {
   font-family: "Noto Sans Japanese",sans-serif;
+  text-transform: none !important;
   font-weight: 700;
 }
 
@@ -27,11 +38,6 @@ header .navbar-brand
   letter-spacing: 0;
 }
 
-h1, h2, h3, h4, h5, h6
-{
-  text-transform: none !important;
-}
-
 #slider::before
 {
   opacity: 0.2;
@@ -50,12 +56,6 @@ h1, h2, h3, h4, h5, h6
 #slide h1, #slider p
 {
   text-shadow: 0 0 5px #000000;
-}
-
-#feature h2, #feature p
-{
-  text-shadow: 0 0 10px #ffffff;
-  color: #000000;
 }
 
 footer
