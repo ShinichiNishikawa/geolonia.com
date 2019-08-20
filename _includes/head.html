@@ -18,6 +18,17 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/css/geolonia.css" />
 
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image:src" content="{{ site.url }}{{ page.featured_image }}">
+
+<!-- Facebook OpenGraph -->
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.featured_image }}" />
+
 <!-- Js -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
