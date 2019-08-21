@@ -69,6 +69,11 @@ footer p, footer a, footer .footer-manu ul li a
   color: #ffffff;
 }
 
+#call-to-action h2
+{
+  line-height: 1.5em;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
