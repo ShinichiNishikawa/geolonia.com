@@ -60,11 +60,11 @@ header .navbar-brand
 
 footer
 {
-  background-color: #EE730F;
+  background-color: #343741;
   color: #ffffff;
 }
 
-footer p, footer a, footer .footer-manu ul li a
+footer p, footer a, footer a:hover, footer .footer-manu ul li a
 {
   color: #ffffff;
 }
@@ -72,6 +72,17 @@ footer p, footer a, footer .footer-manu ul li a
 #call-to-action h2
 {
   line-height: 1.5em;
+}
+
+#call-to-action::before
+{
+  background-color: #EB5C0B;
+}
+
+#global-header .block h1
+{
+  letter-spacing: normal;
+  font-weight: 900;
 }
 
 @keyframes spin {
