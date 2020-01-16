@@ -85,6 +85,13 @@ footer p, footer a, footer a:hover, footer .footer-manu ul li a
   font-weight: 900;
 }
 
+ul
+{
+  margin: 1em;
+  margin-left: 2em;
+  list-style-type: disc;
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
