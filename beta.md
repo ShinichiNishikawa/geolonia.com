@@ -16,7 +16,7 @@ permalink: /beta/
 
 後日、弊社スタッフよりサインアップ用の URL をご案内いたします。
 
-[β テスト申し込みフォーム](https://docs.google.com/forms/d/1ylUwd_SGgWNhWUTYeh0-af3ZbPdHVObsGQ4SQe1HwFg)
+[β テスト申し込みフォーム](https://docs.google.com/forms/d/1ylUwd_SGgWNhWUTYeh0-af3ZbPdHVObsGQ4SQe1HwFg/viewform)
 
 ## コミュニティ用 Slack について
 
