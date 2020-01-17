@@ -35,7 +35,7 @@ permalink: /beta/
 
 サインアップが可能になりましたら、Email にてサインアップが可能になった旨をご連絡させていただきます。
 
-<a href="https://docs.google.com/forms/d/1ylUwd_SGgWNhWUTYeh0-af3ZbPdHVObsGQ4SQe1HwFg" class="btn btn-danger">β テスト申し込みフォーム</a>
+<a href="https://docs.google.com/forms/d/1ylUwd_SGgWNhWUTYeh0-af3ZbPdHVObsGQ4SQe1HwFg/viewform" class="btn btn-danger">β テスト申し込みフォーム</a>
 
 ## ダッシュボードについて
 
