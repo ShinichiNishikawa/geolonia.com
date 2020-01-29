@@ -46,3 +46,9 @@ permalink: /beta/
 上述の通り、現時点ではあらかじめ許可された Email アドレスでのみサインアップが可能です。β テスト申し込みフォームにて申し込みをお願いいたします。
 
 一部の機能はまだ開発中です。
+
+## コミュニティ用 Slack について
+
+Geolonia ユーザーコミュニティの皆様向けの Slack をご用意しています。
+
+[Geolonia ユーザーコミュニティ用 Slack へサインアップする](https://join.slack.com/t/geolonia-community/shared_invite/enQtOTA3NjM0MjA4NTAyLTNjZjI2NjU1NGU4YTQ2NDg2NDBiNDM2NjEyMGJlNTkxY2Y0Yzg0ZDA1YmQ3ODVjY2M5YmI4YzVhZGMyNWUzMjE)
