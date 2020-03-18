@@ -10,9 +10,11 @@ permalink: /contact/
 
 Geolonia の製品やサービスに関するお問い合わせは以下のフォームをご利用ください。
 
-
 <div class="well form-group" style="margin: 30px 0;">
   <form class="contact" name="contact" method="POST" action="/thanks/index.html" data-netlify-recaptcha="true" data-netlify="true">
+    <div class="alert alert-danger">
+      誠に恐れ入りますが、弊社サービスに関する技術サポートに関しましては、本サービス開始後にご提供させていただきますのであらかじめご了承願います。
+    </div>
     <h4>お名前 <span class="label label-danger">必須入力</span></h4>
 
     <p><input class="form-control" type="text" name="お名前" value="" required></p>
