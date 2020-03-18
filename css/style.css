@@ -36,7 +36,7 @@
 .contact
 {
   max-width: 640px;
-  margin: 30px auto;
+  margin: 20px auto;
   padding: 30px;
 }
 
@@ -51,7 +51,19 @@
   height: 300px;
 }
 
+.contact h4
+{
+  margin-top: 30px;
+}
+
 .page h2
 {
   margin: 30px 0;
+}
+
+.form-group .label
+{
+  font-size: 50%;
+  font-weight: normal;
+  vertical-align: top;
 }
