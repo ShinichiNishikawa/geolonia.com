@@ -12,7 +12,7 @@ Geolonia の製品やサービスに関するお問い合わせは以下のフ�
 
 
 <div class="well form-group" style="margin: 30px 0;">
-  <form class="contact" name="contact" method="POST" action="/thanks/" data-netlify="true">
+  <form class="contact" name="contact" method="POST" action="/thanks/index.html" data-netlify-recaptcha="true" data-netlify="true">
     <h4>お名前 <span class="label label-danger">必須入力</span></h4>
 
     <p><input class="form-control" type="text" name="お名前" value="" required></p>
