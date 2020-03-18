@@ -33,6 +33,8 @@ Geolonia の製品やサービスに関するお問い合わせは以下のフ�
 
     <p><textarea class="form-control" name="お問い合わせ内容" required></textarea></p>
 
+    <div data-netlify-recaptcha="true"></div>
+
     <p style="margin-top: 30px;"><input class="btn btn-primary btn-block" type="submit" value="送信"></p>
   </form>
 </div>
