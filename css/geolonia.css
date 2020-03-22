@@ -121,14 +121,14 @@ ul
   padding: 8px;
 }
 
-@media only screen and (max-width : 768px) {
+@media (max-width : 768px) {
   #blog .post
   {
     width: 50%;
   }
 }
 
-@media only screen and (max-width : 480px) {
+@media (max-width : 480px) {
   #blog .post
   {
     width: 100%;
@@ -178,4 +178,52 @@ ul
 
 .spinner {
   animation: spin 1s linear infinite;
+}
+
+#slider::before
+{
+  background: none;
+}
+
+#slider
+{
+  background-position: center;
+}
+
+.posts .post-title
+{
+  font-weight: normal;
+}
+
+.launch-get-geolonia
+{
+
+}
+
+@media (max-width: 768px) {
+  #slider
+  {
+    background-attachment: scroll;
+  }
+}
+
+.launch-get-geolonia {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.launch-get-geolonia:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
 }
