@@ -238,3 +238,14 @@ ul
   box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
 }
+
+#global-header::before
+{
+  background: none !important;
+}
+
+#pricing .plan
+{
+  border: 1px solid #555555;
+  height: 1000px;
+}
