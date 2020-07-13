@@ -13,6 +13,7 @@ Geolonia の地図は、世界中のオープンソースプロジェクトや�
 ## 地図データ
 
 * [OpenStreetMap 及びその貢献者の皆様](https://www.openstreetmap.org/copyright) - Geolonia が提供するほぼすべての地図には、OpenStreetMap コミュニティによるデータが利用されています。
+* [OpenMapTiles](https://openmaptiles.org/) - 一部のタイルの生成には OpenMapTiles が利用されています。
 * [国土地理院ウェブサイト](https://www.gsi.go.jp/) - 一部の地図は [地理院地図 Vector](https://maps.gsi.go.jp/vector/) をもとにスタイルをカスタマイズして提供しています。
 * [Natural Earth](https://www.naturalearthdata.com/) - 低ズームで表示される地図は、Natural Earth プロジェクトのデータが利用されています。
 * [国土交通省国土数値情報ダウンロードサイト](https://nlftp.mlit.go.jp/) - 日本国内の地図の行政界等のデータやサンプルなどで国土数値情報のデータが利用されています。
