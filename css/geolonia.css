@@ -249,3 +249,8 @@ ul
   border: 1px solid #555555;
   height: 1000px;
 }
+
+#global-header .block
+{
+  padding-left: 0;
+}
