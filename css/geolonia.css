@@ -113,7 +113,6 @@ ul
   display: flex;
   padding-bottom: 45px;
   padding-top: 45px;
-  background-color: #f5f5f5;
 }
 
 #blog .posts
@@ -248,4 +247,39 @@ ul
 {
   border: 1px solid #555555;
   height: 1000px;
+}
+
+#global-header .block
+{
+  padding-left: 0;
+}
+
+.home-content section
+{
+  background-color: #FFFFFF;
+  padding: 45px 0;
+}
+
+.home-content section:nth-child(even)
+{
+  background-color: #f5f5f5;
+}
+
+.post-list
+{
+  margin: 24px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  border-top: 3px solid #CCCCCC;
+}
+
+.post-list .date
+{
+  color: #999999;
+}
+
+.post-list li
+{
+  border-bottom: 1px solid #cccccc;
+  padding: 16px 8px;
 }
