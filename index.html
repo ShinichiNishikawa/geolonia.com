@@ -110,15 +110,15 @@ featured_image: /img/slider-bg.jpg
       <div class="col-sm-6">
         <h2>お知らせ</h3>
         <ul class="post-list">
-          {% for post in site.categories.info %}
+          {% for post in site.categories.info limit:3 %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br /><span class="date">{{post.date | date: "%Y/%m/%d"}}</span></li>
           {% endfor %}
         </ul>
       </div>
       <div class="col-sm-6">
-          <h2>プレスリリース</h3>
+        <h2>プレスリリース</h3>
         <ul class="post-list">
-          {% for post in site.categories.pressrelease %}
+          {% for post in site.categories.pressrelease limit:3 %}
             <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br /><span class="date">{{post.date | date: "%Y/%m/%d"}}</span></li>
           {% endfor %}
         </ul>
