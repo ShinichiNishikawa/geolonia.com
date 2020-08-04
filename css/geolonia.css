@@ -283,3 +283,8 @@ ul
   border-bottom: 1px solid #cccccc;
   padding: 16px 8px;
 }
+
+img
+{
+  width: auto !important;
+}
