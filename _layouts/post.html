@@ -2,22 +2,21 @@
 layout: default
 ---
 
-<div class="post">
-  <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
-    <div class="container">
-      <div class="row">
-        <div>
-          <div class="block">
-            <h1>{{ page.title }}</h1>
-            <div class="post-info-wrapper">
-              <p class="italic"><span class="bold">{{ page.date | date: "%Y/%m/%d" }}</span></p>
-            </div>
-            <hr />
-            <p>{{ content }}</p>
+<div id="post">
+
+  <div class="container">
+    <div class="row">
+      <div>
+        <div class="block">
+          <h1>{{ page.title }}</h1>
+          <div class="post-info-wrapper">
+            <p class="italic"><span class="bold">{{ page.date | date: "%Y/%m/%d" }}</span></p>
           </div>
-        </div><!-- .col-md-7 close -->
-      </div>
+          <hr />
+          <p>{{ content }}</p>
+        </div>
+      </div><!-- .col-md-7 close -->
     </div>
-  </section>
+  </div>
+
 </div>

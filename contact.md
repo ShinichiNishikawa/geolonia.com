@@ -4,9 +4,21 @@ title: お問い合わせ
 permalink: /contact/
 ---
 
-## お問い合わせフォーム
-
 このたびは、Geolonia のウェブサイトへお越しいただき誠にありがとうございます。
+
+## Geolonia Office Hour
+
+Geolonia の担当者がオンラインで皆さんのご相談やお問い合わせに直接お答えいたします。
+
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+<a class="btn btn-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/geolonia/office-hour'});return false;">Geolonia Office Hour を予約</a>
+<!-- Calendly link widget end -->
+
+[弊社では Geolonia のサービスを一緒に開発してくださる開発パートナーの募集を行っております。](https://calendly.com/geolonia/dev-partner)
+
+## お問い合わせフォーム
 
 Geolonia の製品やサービスに関するお問い合わせは以下のフォームをご利用ください。
 
