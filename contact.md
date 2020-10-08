@@ -16,7 +16,8 @@ Geolonia の担当者がオンラインで皆さんのご相談やお問い合�
 <a class="btn btn-primary" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/geolonia/office-hour'});return false;">Geolonia Office Hour を予約</a>
 <!-- Calendly link widget end -->
 
-[弊社では Geolonia のサービスを一緒に開発してくださる開発パートナーの募集を行っております。](https://calendly.com/geolonia/dev-partner)
+弊社では Geolonia のサービスを一緒に開発してくださる開発パートナーの募集を行っております。<br />
+開発パートナーについてのお問い合わせも、Office Hour をご利用ください。
 
 ## お問い合わせフォーム
 
