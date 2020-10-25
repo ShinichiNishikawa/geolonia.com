@@ -305,3 +305,17 @@ img
   background-color: #ec971f;
   border-color: #d58512;
 }
+
+.home-content .medias
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content .medias .media
+{
+  width: 20%;
+  padding: 8px;
+  box-sizing: border-box;
+}
