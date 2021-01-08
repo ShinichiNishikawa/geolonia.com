@@ -4,11 +4,12 @@
 
 ### prerequisite
 
-#### MacOS
+We recommend to setup the Ruby runtime with version manager, such as [rbenv](https://github.com/rbenv/rbenv) or [RVM](https://github.com/rvm/rvm). 
 
-```shell
-# the Privilege is required with the default Ruby runtime.
-$ sudo gem install bundler
+And install bundler to manage the ruby gems.
+
+```
+$ gem install bundler
 ```
 
 ### develop with a local Jekyll server
@@ -17,7 +18,7 @@ $ sudo gem install bundler
 $ git clone git@github.com:geolonia/geolonia.com.git
 $ cd geolonia.com
 $ bundle install --path=vendor
-# start a server listening at http://localhost:4000.
+# start a server listening at http://localhost:4000
 $ bundle exec jekyll serve
 ```
 
