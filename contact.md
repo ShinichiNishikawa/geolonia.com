@@ -4,7 +4,7 @@ title: お問い合わせ
 permalink: /contact/
 ---
 
-このたびは、Geolonia のウェブサイトへお越しいただき誠にありがとうございます。
+このたびは、Geolonia のウェブサイトへお越しいただきありがとうございます。
 
 ## Geolonia Office Hour
 
