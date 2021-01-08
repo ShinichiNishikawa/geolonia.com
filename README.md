@@ -17,7 +17,7 @@ $ sudo gem install bundler
 $ git clone git@github.com:geolonia/geolonia.com.git
 $ cd geolonia.com
 $ bundle install --path=vendor
-# start a server listening with 4,000 port.
+# start a server listening at http://localhost:4000.
 $ bundle exec jekyll serve
 ```
 
