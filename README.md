@@ -23,4 +23,4 @@ $ bundle exec jekyll serve
 
 ## Deployment
 
-We are working with GitHub to deploy the site to Netlify.
+We're deploying our website to Netlify, so you can push your commits via GitHub or create a pull request. That's it!
