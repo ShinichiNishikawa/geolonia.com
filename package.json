@@ -5,10 +5,7 @@
   "repository": "git@github.com:geolonia/geolonia.com.git",
   "license": "MIT",
   "scripts": {
-    "start": "bundle exec jekyll serve",
-    "build": "cp ./node_modules/amazon-cognito-identity-js/dist/amazon-cognito-identity.min.js ./js/"
+    "start": "bundle exec jekyll serve"
   },
-  "dependencies": {
-    "amazon-cognito-identity-js": "^3.0.15"
-  }
+  "dependencies": {}
 }
